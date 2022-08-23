@@ -1,0 +1,3 @@
+packages:
+  - local: dbt_sub_projects/dwh
+  - local: dbt_sub_projects/validation

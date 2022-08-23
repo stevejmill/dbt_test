@@ -1,0 +1,10 @@
+
+
+============================== 2022-08-22 16:18:54.568706 | d7286c63-f65f-4d63-8e7d-64e9932a60fc ==============================
+[0m16:18:54.568706 [info ] [MainThread]: Running with dbt=1.2.0
+[0m16:18:54.569706 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\sjmil\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbt_a8_test', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m16:18:54.569706 [debug] [MainThread]: Tracking: tracking
+[0m16:18:54.582709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CF1F4E4F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CF1F4EF40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CF1F4E220>]}
+[0m16:18:54.583709 [info ] [MainThread]: Setting up your profile.
+[0m16:20:46.289190 [info ] [MainThread]: Profile dbt_a8_test written to C:\Users\sjmil\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:20:46.290191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CEC572AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CF1F4E730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027CF1F4EAF0>]}
